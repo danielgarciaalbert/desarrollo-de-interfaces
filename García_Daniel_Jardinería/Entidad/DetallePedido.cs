@@ -12,9 +12,9 @@ namespace Entidad
     {
         public int CodigoDetallePedido { get; set; }
         public string CodigoProducto { get; set; }
-        public int Cantidad { get; set; }
-        public double PrecioUnidad { get; set; }
-        public short NumeroLinea { get; set; }
+        public int? Cantidad { get; set; }
+        public double? PrecioUnidad { get; set; }
+        public int? NumeroLinea { get; set; }
 
         public DetallePedido () { }
 

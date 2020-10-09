@@ -1,0 +1,6 @@
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Entidad\bin\Debug\Entidad.dll
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Entidad\obj\Debug\Entidad.csprojAssemblyReference.cache
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Entidad\obj\Debug\Entidad.dll
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Entidad\obj\Debug\Entidad.pdb
