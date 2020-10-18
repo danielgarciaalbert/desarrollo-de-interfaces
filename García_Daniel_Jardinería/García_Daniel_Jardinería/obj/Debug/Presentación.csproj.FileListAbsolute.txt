@@ -13,3 +13,5 @@ C:\Users\Wander\source\repos\García_Daniel_Jardinería\García_Daniel_Jardiner�
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\García_Daniel_Jardinería\obj\Debug\García_Daniel_Jardinería.exe
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\García_Daniel_Jardinería\obj\Debug\García_Daniel_Jardinería.pdb
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\García_Daniel_Jardinería\obj\Debug\García_Daniel_Jardinería.Form1.resources
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\García_Daniel_Jardinería\bin\Debug\Datos.dll
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\García_Daniel_Jardinería\bin\Debug\Datos.pdb
