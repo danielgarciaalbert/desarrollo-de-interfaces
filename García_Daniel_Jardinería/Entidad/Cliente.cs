@@ -8,73 +8,76 @@ using System.Threading.Tasks;
 
 namespace Entidad
 {
-    class Cliente
+    public class Cliente
     {
-        public int CodigoCliente { get; set; }
-        public string Nombre { get; set; }
-        public string NombreContacto { get; set; }
-        public string ApellidoContacto { get; set; }
+        public int Codigo_Cliente { get; set; }
+        public string Nombre_Cliente { get; set; }
+        public string? Nombre_Contacto { get; set; }
+        public string? Apellido_Contacto { get; set; }
         public string Telefono { get; set; }
         public string Fax { get; set; }
-        public string LineaDireccion1 { get; set; }
-        public string LineaDireccion2 { get; set; }
+        public string Linea_Direccion1 { get; set; }
+        public string? Linea_Direccion2 { get; set; }
         public string Ciudad { get; set; }
-        public string Region { get; set; }
-        public string Pais { get; set; }
-        public string CodigoPostal { get; set; }
-        public string CodigoEmpleadoRepVentas { get; set; }
-        public double LimiteCredito { get; set; }
+        public string? Region { get; set; }
+        public string? Pais { get; set; }
+        public string? Codigo_Postal { get; set; }
+        public string? Codigo_Empleado_Rep_Ventas { get; set; }
+        public double? Limite_Credito { get; set; }
+        public string Pass { get; set; }
 
         public Cliente () { }
 
-        public Cliente(int codigoCliente, string nombre, string nombreContacto, 
+        public Cliente(string nombre, string nombreContacto, 
             string apellidoContacto, string telefono, string fax, 
             string lineaDireccion1, string lineaDireccion2, string ciudad, 
             string region, string pais, string codigoPostal, 
-            string codigoEmpleadoRepVentas, double limiteCredito)
+            string codigoEmpleadoRepVentas, double limiteCredito, string pass)
         {
-            CodigoCliente = codigoCliente;
-            Nombre = nombre;
-            NombreContacto = nombreContacto;
-            ApellidoContacto = apellidoContacto;
+            Nombre_Cliente = nombre;
+            Nombre_Contacto = nombreContacto;
+            Apellido_Contacto = apellidoContacto;
             Telefono = telefono;
             Fax = fax;
-            LineaDireccion1 = lineaDireccion1;
-            LineaDireccion2 = lineaDireccion2;
+            Linea_Direccion1 = lineaDireccion1;
+            Linea_Direccion2 = lineaDireccion2;
             Ciudad = ciudad;
             Region = region;
             Pais = pais;
-            CodigoPostal = codigoPostal;
-            CodigoEmpleadoRepVentas = codigoEmpleadoRepVentas;
-            LimiteCredito = limiteCredito;
+            Codigo_Postal = codigoPostal;
+            Codigo_Empleado_Rep_Ventas = codigoEmpleadoRepVentas;
+            Limite_Credito = limiteCredito;
+            Pass = pass;
         }
 
         public Cliente(Cliente clienteCopia)
         {
-            CodigoCliente = clienteCopia.CodigoCliente;
-            Nombre = clienteCopia.Nombre;
-            NombreContacto = clienteCopia.NombreContacto;
-            ApellidoContacto = clienteCopia.ApellidoContacto;
+            Nombre_Cliente = clienteCopia.Nombre_Cliente;
+            Nombre_Contacto = clienteCopia.Nombre_Contacto;
+            Apellido_Contacto = clienteCopia.Apellido_Contacto;
             Telefono = clienteCopia.Telefono;
             Fax = clienteCopia.Fax;
-            LineaDireccion1 = clienteCopia.LineaDireccion1;
-            LineaDireccion2 = clienteCopia.LineaDireccion2;
+            Linea_Direccion1 = clienteCopia.Linea_Direccion1;
+            Linea_Direccion2 = clienteCopia.Linea_Direccion2;
             Ciudad = clienteCopia.Ciudad;
             Region = clienteCopia.Region;
             Pais = clienteCopia.Pais;
-            CodigoPostal = clienteCopia.CodigoPostal;
-            CodigoEmpleadoRepVentas = clienteCopia.CodigoEmpleadoRepVentas;
-            LimiteCredito = clienteCopia.LimiteCredito;
+            Codigo_Postal = clienteCopia.Codigo_Postal;
+            Codigo_Empleado_Rep_Ventas = clienteCopia.Codigo_Empleado_Rep_Ventas;
+            Limite_Credito = clienteCopia.Limite_Credito;
+            Pass = clienteCopia.Pass;
         }
 
         ~Cliente() { }
 
+
+
         public override string ToString()
         {
-            return CodigoCliente + "#" + Nombre + "#" + NombreContacto + "#" + ApellidoContacto
-                + "#" + Telefono + "#" + Fax + "#" + LineaDireccion1 + "#" + LineaDireccion2
-                + "#" + Ciudad + "#" + Region + "#" + Pais + "#" + CodigoPostal + "#" +
-                CodigoEmpleadoRepVentas + "#" + LimiteCredito;
+            return Codigo_Cliente + "#" + Nombre_Cliente + "#" + Nombre_Contacto + "#" + Apellido_Contacto
+                + "#" + Telefono + "#" + Fax + "#" + Linea_Direccion1 + "#" + Linea_Direccion2
+                + "#" + Ciudad + "#" + Region + "#" + Pais + "#" + Codigo_Postal + "#" +
+                Codigo_Empleado_Rep_Ventas + "#" + Limite_Credito;
         }
     }
 }

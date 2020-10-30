@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entidad
 {
-    class Pago
+    public class Pago
     {
         public string FormaPago { get; set; }
         public string IdTransaccion { get; set; }

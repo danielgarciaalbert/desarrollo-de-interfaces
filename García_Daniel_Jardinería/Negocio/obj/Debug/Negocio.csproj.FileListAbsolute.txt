@@ -12,3 +12,8 @@ C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\obj\Debug\Negoci
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\obj\Debug\Negocio.dll
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\bin\Debug\Datos.dll.config
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Negocio\bin\Debug\AspNetCore.Http.Extensions.dll

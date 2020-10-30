@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entidad
 {
-    class Pedido : IComparable
+    public class Pedido : IComparable
     {
         public int CodigoPedido { get; set; }
         public string FechaPedido { get; set; }

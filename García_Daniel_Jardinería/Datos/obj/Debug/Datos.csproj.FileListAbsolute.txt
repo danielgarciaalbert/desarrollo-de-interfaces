@@ -26,3 +26,5 @@ C:\Users\Wander\source\repos\García_Daniel_Jardinería\Datos\obj\Debug\Datos.dl
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\Datos\obj\Debug\Datos.pdb
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\Datos\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Wander\source\repos\García_Daniel_Jardinería\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Datos\bin\Debug\Datos.dll.config
+C:\Users\Wander\source\repos\García_Daniel_Jardinería\Datos\bin\Debug\AspNetCore.Http.Extensions.dll

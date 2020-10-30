@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Entidad
 {
-    class Oficina
+    public class Oficina
     {
         public string CodigoOficina { get; set; }
         public string Ciudad { get; set; }

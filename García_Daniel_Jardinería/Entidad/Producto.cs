@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entidad
 {
-    class Producto : IComparable
+    public class Producto : IComparable
     {
         public string CodigoProducto { get; set; }
         public string Nombre { get; set; }

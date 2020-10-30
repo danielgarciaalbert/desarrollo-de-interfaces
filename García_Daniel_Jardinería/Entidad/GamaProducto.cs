@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entidad
 {
-    class GamaProducto
+    public class GamaProducto
     {
         public string Gama { get; set; }
         public string DescripcionTexto { get; set; }
